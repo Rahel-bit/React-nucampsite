@@ -10,7 +10,7 @@ function RenderComments({comments}) {
         return (
             <div className="col-md-5 m-1">
                     <h4>Comments</h4>
-                    {comments.map((comment) =>{ 
+                    {comments.map(comment =>{ 
                     return(
                         <div key={comment.id}>
                             <p>{comment.text}<br/>
